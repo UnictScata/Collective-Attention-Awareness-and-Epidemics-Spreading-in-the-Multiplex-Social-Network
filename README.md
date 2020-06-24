@@ -3,7 +3,9 @@
 
 Starting from a large corpus of Twitter communications dataset (from: https://www.trackmyhashtag.com/blog/twitter-datasets-free/ and https://www.kaggle.com/smid80/coronavirus-covid19-tweets ) and the evaluation of the most popular terms of search in Google search, regarding a time interval ranged between 1-Dec-2019 and 30-Mar-2020, we have analysed and measured the collective attention and its impact on the awareness diffusion and epidemics spreading in relation to covid-19 pandemic. 
 This study is carried out using R-statistics, datasets have been integrated through the public Twitter API, in order to retrieve additional information about users, and queries popularity has been investigated thanks to Gtrends tools. 
-Source Code is composed of: 
+
+
+The source code is composed of: 
 - TwitterData_integration.R, where we extract data from datasets, integrate them through rtweet package of R and analyse different time windows. 
 -	Gtrends.R, through gtrendsR package, we extract the most 25 popular terms of search and their related queries, in the different states under the considered time interval.
 -	User_sampling.R, where we apply a sampling approach, based on activeness and connectedness, to identify the most influential users and their relationships.
